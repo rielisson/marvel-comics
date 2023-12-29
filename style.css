@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;1,500&family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica,sans-serif;
+}
+.menu{
+    display: flex;
+}
+.max-width{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    height: 92px;
+    background: #22262a;
+    color: white;
+    position: relative;
+ 
+}
+.div-logo{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    left: 100px;
+    top: 15px;
+}
+.div-event{
+    position: relative;
+    top: 1px;
+    height: 25px;
+   
+}
+
+.div-logo p{
+    position: relative;
+    left: 30px;
+    bottom: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-logo p span{
+    color: #E9D032;
+
+}
+
+.logo-marvel{
+    width: 145px;
+    height: 70px;
+    position: relative;
+    left: 33%;
+    bottom: 9px;
+    font-size: 10px;
+}
+.div-card{
+    position: relative;
+    width: 200px;
+    height: 53px;
+    left: 50%;
+}
+.div-cardIcon{
+    position: relative;
+    top: 10px;
+}
+.div-card p{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 35px;
+    bottom: 22px;
+}
+.div-card  p span{
+    position: relative;
+    top: 15px;
+    right: 65px;
+
+}
+.div-search{
+    position: relative;
+    left: 50%;
+    top: 15px;
+}
+
+.links-nav{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    position: relative;
+    top: 63px;
+    flex:left;
+    list-style-type: none;
+    height: 10px;
+    right: 10%;
+}    
+.links-nav li a{
+    color: #fff;
+    padding: 20px;
+    font-weight: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    
+}
+.links-nav li a:hover{
+    color: red;
+}
