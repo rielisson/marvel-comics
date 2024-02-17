@@ -46,8 +46,7 @@ body{
     font-size: 1.5em;
     font-weight: 600;
     font-family: "DINNextW01-CondensedMedium", "Trebuchet MS", Helvetica, Arial, sans-serif;
-    
-    bottom: 10%;
+    bottom: 15px;    
 }
 .div-logo p:hover{
     color: #22262a;
@@ -132,7 +131,7 @@ body{
 }
 .imgs{
     width: 101%;
-    height: 640px;
+    height: 900px;
     overflow: hidden;
 }
 .menu-body .imgs{
@@ -145,90 +144,141 @@ body{
     width: 19.9%;
     
 }
-@keyframes animacao {
-    0% {margin-left: 0%;}
-    20% {margin-left: 0%; }
-    25% {margin-left: -100%; }
-    45% {margin-left: -100%; }
-    50% {margin-left: -200%; }
-    70% {margin-left: -200%; }
-    75% {margin-left: -300%; }
-    95% {margin-left: -300%; }
-    100% {margin-left: -400%; }
-    
-}
+
 /*final carrossel*/
-.jogos{
+.personagens{
     width: 100%;
-    height: 550px;
+    height: 1000px;
     position: relative;
     top: 10%;
     object-fit: contain;
+    background-color: #000;
 }
-.spider-2{
+.title_personagens{
+    color: #fff;
+    font-family: "DINNextW01-CondensedMedium", "Trebuchet Mf", Helvetica, Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+.descricao_personagens{
     width: 100%;
-    height: 650px;
-    position: relative;
-    top: 15%;
+    height: 800px;
+    color: #fff;
     
 }
-.title{
+.spider_venom{
+    width: 19%;
+    height: 60%;
     position: relative;
-    bottom: 75%;
-    width: 200px;
-    height: 150px;
-    left: 5%;
+    top: 11%;
+    left: 8%;
+    border: 2px solid cyan;
+    border-radius: 15px;
+}
+.title_spider_venom{
+    color: #fff;
+    position: relative;
+    top: 11.5%;
+    left: 8%;
+    width: 15%;
+}
+.descricao_spider_venom{
+    position: relative;
+    width: 20%;
+    top: 14%;
+    left: 8%;
+    font-size: 1.4em;
+    font-weight: 400;
+
+}
+.peter_miles_div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.peter_miles{
+    width: 19%;
+    height: 60%;
+    border: 2px solid cyan;
+    border-radius: 15px;
+    position: relative;
+    left: 30%;
+    bottom: 79%;
+}
+.title_peter_miles{
+    color: #fff;
+    position: relative;
+    bottom: 78%;
+    left: 30%;
+    width: 20%;
+}
+.descricao_peter_miles{
+    color: #fff;
+    position: relative;
+    width: 20%;
+    bottom: 76%;
+    left: 30%;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+.div_venom{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 79%;
+}
+.imagem_venom{
+    width: 19%;
+    height: 60%;
+    border: 2px solid cyan;
+    border-radius: 15px;
+    left: 52%;
+    bottom: 100%;
+    position: relative;
+}
+.title_venom{
+    color: #fff;
+    position: relative;
+    bottom: 99%;
+    left: 52%;
+    width: 20%;
+}
+.descricao_venom{
+    color: #fff;
+    position: relative;
+    width: 20%;
+    bottom: 98%;
+    left: 52%;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+.imagem_park{
+    width: 19%;
+    height: 60%;
+    border: 2px solid cyan;
+    border-radius: 15px;
+    left: 74%;
+    position: relative;
+    bottom: 279%;
+}
+.title_park{
+    color: #fff;
+    position: relative;
+    bottom: 278%;
+    left: 74%;
+    width: 20%;
+}
+.descricao_park{
+    color: #fff;
+    position: relative;
+    bottom: 278%;
+    left: 74%;
+    font-size: 1.4em;
+    font-weight: 400;
+    width: 20%;
 }
 
-.logo-homem-aranha{
-    position: relative;
-    width: 350px;
-    height: 220px;
-    left: 40px;
-}
-.title-end{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    bottom: 72%;
-    left: 5%;
-}
 
-.link-1{
-    position: relative;
-    left: 30px;
-    background-color: #e62429;
-    padding: 15px 45px;
-    text-transform: uppercase;
-    color: #fff;
-    line-height: 16px;
-    font-size: 1.5em;
-    font-weight: 600;
-    font-family: "DINNextW01-CondensedMedium", "Trebuchet MS", Helvetica, Arial, sans-serif;
-    display: inline-block;
-    clip-path: polygon(0% 35%, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 65%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
-    cursor: pointer;
-    
-}
-.link-1:hover{
-    background-color: #22262a;
-    color: #e62429;
-}
-.link-2{
-    position: relative;
-    background-color: #e62429;
-    left: 50%;
-    padding: 15px 45px;
-    clip-path: polygon(0% 35%, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 65%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
-    text-transform: uppercase;
-    color: #fff;
-    line-height: 16px;
-    font-weight: 600;
-    display: inline-block;
-    cursor: pointer;
-    
-}
-.link-2:hover{
-    background-color: #22262a;
-    color: #e62429;
-}
+
+
