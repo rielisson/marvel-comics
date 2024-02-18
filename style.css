@@ -145,7 +145,7 @@ body{
     
 }
 
-/*final carrossel*/
+/*end imagem principal*/
 .personagens{
     width: 100%;
     height: 1000px;
@@ -173,7 +173,7 @@ body{
     position: relative;
     top: 11%;
     left: 8%;
-    border: 2px solid cyan;
+    border: 2px solid rgb(222, 12, 12);
     border-radius: 15px;
 }
 .title_spider_venom{
@@ -192,15 +192,11 @@ body{
     font-weight: 400;
 
 }
-.peter_miles_div{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
+/*end spider venom */
 .peter_miles{
     width: 19%;
     height: 60%;
-    border: 2px solid cyan;
+    border: 2px solid rgb(222, 12, 12);
     border-radius: 15px;
     position: relative;
     left: 30%;
@@ -222,62 +218,129 @@ body{
     font-size: 1.4em;
     font-weight: 400;
 }
-.div_venom{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    bottom: 79%;
-}
+/* end peter e miles */
 .imagem_venom{
     width: 19%;
     height: 60%;
-    border: 2px solid cyan;
+    border: 2px solid rgb(222, 12, 12);
     border-radius: 15px;
     left: 52%;
-    bottom: 100%;
     position: relative;
+    bottom: 156%;
 }
 .title_venom{
     color: #fff;
     position: relative;
-    bottom: 99%;
     left: 52%;
     width: 20%;
+    bottom: 155%;
 }
 .descricao_venom{
     color: #fff;
     position: relative;
     width: 20%;
-    bottom: 98%;
     left: 52%;
     font-size: 1.4em;
     font-weight: 400;
+    bottom: 154%;
 }
+/*end venom */
 .imagem_park{
     width: 19%;
     height: 60%;
-    border: 2px solid cyan;
+    border: 2px solid rgb(222, 12, 12);
     border-radius: 15px;
     left: 74%;
     position: relative;
-    bottom: 279%;
+    bottom: 239%;
 }
 .title_park{
     color: #fff;
     position: relative;
-    bottom: 278%;
+    bottom: 238%;
     left: 74%;
     width: 20%;
 }
 .descricao_park{
     color: #fff;
     position: relative;
-    bottom: 278%;
+    bottom: 237%;
     left: 74%;
     font-size: 1.4em;
     font-weight: 400;
     width: 20%;
 }
+/*end park */
+/*inicio descricao spiders */
+
+.desc_spider{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+.img_desc{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    filter: brightness(0.5);
+}
+.title_desc{
+    position: relative;
+    bottom: 65%;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #a1a2a4;
+    left: 10%;
+}
+.segundo_title_desc1{
+    position: relative;
+    bottom: 64%;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #a1a2a4;
+    left: 10%;
+}
+.segundo_title_desc2{
+    position: relative;
+    bottom: 67%;
+    color: #a1a2a4;
+    left: 25%;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.text_desc{
+    position: relative;
+    width: 40%;
+    height: 300px;
+    bottom: 62%;
+    color: #a1a2a4;
+    left: 10%;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+/*segunda parte da desc spider */
+.text_spider{
+    color: #a1a2a4;
+    width: 40%;
+    height: 300px;
+    bottom: 107%;
+    left: 55%;
+    position: relative;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+.text_spider_2{
+    color: #a1a2a4;
+    width: 40%;
+    height: 300px;
+    bottom: 110%;
+    left: 55%;
+    position: relative;
+    font-weight: 700;
+    font-size: 1.4em;
+
+}
+
 
 
 
