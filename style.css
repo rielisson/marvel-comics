@@ -130,29 +130,22 @@ body{
     height: 50%;
 }
 .imgs{
-    width: 101%;
-    height: 900px;
+    width: 100%;
+    height: 861px;
     overflow: hidden;
-}
-.menu-body .imgs{
-    width: 500%;
-    animation-name: animacao;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-.menu-body .imgs img{
-    width: 19.9%;
     
 }
-
+.imgs img{
+    width: 100%;
+}
 /*end imagem principal*/
 .personagens{
     width: 100%;
     height: 1000px;
     position: relative;
-    top: 10%;
     object-fit: contain;
     background-color: #000;
+    bottom: 10%;
 }
 .title_personagens{
     color: #fff;
@@ -169,7 +162,7 @@ body{
 }
 .spider_venom{
     width: 19%;
-    height: 60%;
+    height: 57%;
     position: relative;
     top: 11%;
     left: 8%;
@@ -195,17 +188,17 @@ body{
 /*end spider venom */
 .peter_miles{
     width: 19%;
-    height: 60%;
+    height: 57%;
     border: 2px solid rgb(222, 12, 12);
     border-radius: 15px;
     position: relative;
     left: 30%;
-    bottom: 79%;
+    bottom: 86%;
 }
 .title_peter_miles{
     color: #fff;
     position: relative;
-    bottom: 78%;
+    bottom: 86%;
     left: 30%;
     width: 20%;
 }
@@ -213,7 +206,7 @@ body{
     color: #fff;
     position: relative;
     width: 20%;
-    bottom: 76%;
+    bottom: 83%;
     left: 30%;
     font-size: 1.4em;
     font-weight: 400;
@@ -221,19 +214,19 @@ body{
 /* end peter e miles */
 .imagem_venom{
     width: 19%;
-    height: 60%;
+    height: 57%;
     border: 2px solid rgb(222, 12, 12);
     border-radius: 15px;
     left: 52%;
     position: relative;
-    bottom: 156%;
+    bottom: 167%;
 }
 .title_venom{
     color: #fff;
     position: relative;
     left: 52%;
     width: 20%;
-    bottom: 155%;
+    bottom: 166.5%;
 }
 .descricao_venom{
     color: #fff;
@@ -242,29 +235,29 @@ body{
     left: 52%;
     font-size: 1.4em;
     font-weight: 400;
-    bottom: 154%;
+    bottom: 161%;
 }
 /*end venom */
 .imagem_park{
     width: 19%;
-    height: 60%;
+    height: 57%;
     border: 2px solid rgb(222, 12, 12);
     border-radius: 15px;
     left: 74%;
     position: relative;
-    bottom: 239%;
+    bottom: 254%;
 }
 .title_park{
     color: #fff;
     position: relative;
-    bottom: 238%;
+    bottom: 253%;
     left: 74%;
     width: 20%;
 }
 .descricao_park{
     color: #fff;
     position: relative;
-    bottom: 237%;
+    bottom: 252%;
     left: 74%;
     font-size: 1.4em;
     font-weight: 400;
@@ -277,6 +270,7 @@ body{
     width: 100%;
     height: 900px;
     position: relative;
+    
 }
 .img_desc{
     width: 100%;
@@ -304,7 +298,7 @@ body{
     position: relative;
     bottom: 67%;
     color: #a1a2a4;
-    left: 25%;
+    left: 29%;
     font-size: 1.5em;
     font-weight: 800;
 }
@@ -323,25 +317,50 @@ body{
     color: #a1a2a4;
     width: 40%;
     height: 300px;
-    bottom: 107%;
+    bottom: 103%;
     left: 55%;
     position: relative;
-    font-weight: 700;
-    font-size: 1.4em;
 }
 .text_spider_2{
     color: #a1a2a4;
     width: 40%;
     height: 300px;
-    bottom: 110%;
+    bottom: 118%;
     left: 55%;
     position: relative;
-    font-weight: 700;
-    font-size: 1.4em;
-
 }
+/*fim da segunda parte da desc spider */
 
-
-
+/*começo da div recursos */
+.recursos__container{
+    width: 100%;
+    height: 890px;
+}
+.title_recursos{
+    text-align: center;
+}
+.rec_imgs{
+    width: 100%;
+    height: 890px;
+}    
+.img_rec_miles_peter{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top: 10%;
+}
+.img_rec_luta_miles{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    
+}
+.img_rec_venom_lutar{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    left: 15%;
+    top: 10%;
+}
 
 
