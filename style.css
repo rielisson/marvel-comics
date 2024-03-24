@@ -164,7 +164,7 @@ body{
     width: 19%;
     height: 57%;
     position: relative;
-    top: 11%;
+    top: 09.5%;
     left: 8%;
     border: 2px solid rgb(222, 12, 12);
     border-radius: 15px;
@@ -172,7 +172,7 @@ body{
 .title_spider_venom{
     color: #fff;
     position: relative;
-    top: 11.5%;
+    top: 10.5%;
     left: 8%;
     width: 15%;
 }
@@ -193,7 +193,7 @@ body{
     border-radius: 15px;
     position: relative;
     left: 30%;
-    bottom: 86%;
+    bottom: 87%;
 }
 .title_peter_miles{
     color: #fff;
@@ -284,7 +284,7 @@ body{
     font-size: 1.5em;
     font-weight: 800;
     color: #a1a2a4;
-    left: 10%;
+    left: 7%;
 }
 .segundo_title_desc1{
     position: relative;
@@ -292,13 +292,13 @@ body{
     font-size: 1.5em;
     font-weight: 800;
     color: #a1a2a4;
-    left: 10%;
+    left: 7%;
 }
 .segundo_title_desc2{
     position: relative;
-    bottom: 67%;
+    bottom: 67.5%;
     color: #a1a2a4;
-    left: 29%;
+    left: 28.5%;
     font-size: 1.5em;
     font-weight: 800;
 }
@@ -308,7 +308,7 @@ body{
     height: 300px;
     bottom: 62%;
     color: #a1a2a4;
-    left: 10%;
+    left: 7%;
     font-size: 1.4em;
     font-weight: 700;
 }
@@ -338,29 +338,82 @@ body{
 }
 .title_recursos{
     text-align: center;
-}
-.rec_imgs{
-    width: 100%;
-    height: 890px;
-}    
-.img_rec_miles_peter{
-    width: 350px;
-    height: 200px;
     position: relative;
-    top: 10%;
+    bottom: 8%;
+}
+/*inicio da rec imagems */
+.rec__imgs{
+    width: 100%;
+    height: 880px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.img_rec_miles_peter{
+    width: 450;
+    height: 250px;
 }
 .img_rec_luta_miles{
-    width: 350px;
-    height: 200px;
-    position: relative;
-    
+    width: 450px;
+    height: 250px;
 }
-.img_rec_venom_lutar{
-    width: 350px;
-    height: 200px;
-    position: relative;
-    left: 15%;
-    top: 10%;
+.img_rec_miles{
+    width: 450px;
+    height: 250px;
 }
+/*fim da rec imagems */
 
-
+/*inicio da rec desc */
+.rec__desc{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    position: relative;
+    bottom: 70%;
+    font-family: "DINNextW01-CondensedMedium", "Trebuchet Mf", Helvetica, Arial, sans-serif
+}
+.rec__desc__title__spiders{
+    position: relative;
+    top: 1%;
+    width: 200px;
+    height: 20px;
+    left: 7%;
+    background-color:aqua ;
+}
+.rec__desc__spiders{
+    position: relative;
+    top: 25%;
+    right: 10%;
+    width: 900px;
+    height: 200px;
+}
+.rec__desc__title__guerra{
+    position: relative;
+    top: 1%;
+    width: 900px;
+    height: 20px;
+    background-color: aqua;
+    left: 40px;
+}
+.rec__desc__guerra{
+    position: relative;
+    top: 25%;
+    right: 13%;
+    width: 900px;
+    height: 200px;
+}
+.rec__desc__title__miles{
+    position: relative;
+    top: 1%;
+    width: 700px;
+    height: 20px;
+    background-color: aqua;
+}
+.rec__desc__miles{
+    position: relative;
+    top: 25%;
+    width: 900px;
+    height: 200px;
+    right: 10%;
+}
+/*fim da rec desc */
