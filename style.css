@@ -64,11 +64,18 @@ li {
     position: fixed;
     top: 0px;
     right: 0px;
-    z-index: 99999;
-    width: 70%;
+    z-index: 999999;
+    width: 0%;
+    transition: .2s;
 }
 .div-menu-lateral span i{
     font-size: 50px;
+}
+.div-menu-lateral.abrir-menu {
+    width: 70%;
+}
+.div-menu-lateral.abrir-menu ~ .overlay-menu-lateral {
+    display: block;
 }
 .menu-lateral {
     list-style: none;
@@ -81,15 +88,15 @@ li {
     background-color: #ff0000;
     color: #000;
 }
-.overflow-menu-lateral {
+.overlay-menu-lateral {
     width: 100%;
     height: 100%;
     position: fixed;
-    z-index: 88888;
+    z-index: 8888;
     top: 0;
     left: 0;
-
-    
+    background-color: #000000a7;
+    display: none;
 }
 
 

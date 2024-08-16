@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    max-width: 100%;
+    height: 6em;
+    padding: 0.5em;
+    background-color: #b90404;
+}
+
+.ul-navbar{
+    padding: 0.5em;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    display: flex;
+}
+
+li {
+    padding: 1.0em;
+    padding-left: 5.0em;
+}
+
+.button-navbar{
+    padding-left: 3.0em;
+    padding-right: 3.0em;
+    margin: 1.5em;
+    border: none;
+    color: #ff0000;
+    font-family: "Roboto", sans-serif;
+    margin-left: 35.0em 
+}
+
+.li-navbar {
+    text-shadow: 1px 1px 10px rgb(17, 0, 253);
+}
