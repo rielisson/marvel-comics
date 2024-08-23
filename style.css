@@ -1,154 +1,218 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: "luisa";
+    src: url(font/LuÃ­sa.ttf);
 }
-/*start navbar */
+@font-face {
+    font-family: "spider";
+    src: url(font/the_amazing_spider_man/The\ Amazing\ Spider-Man.ttf);
+}
+
 body {
-    background-color: #0d1627;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
 
 }
-.navbar{
-    display: flex;
-    max-width: 100%;
-    height: 6em;
-    padding: 0.5em;
-    background-color: transparent;
-    border: none;
-    color: #ff0000;
-    z-index: 44444;
-    opacity: 0.7;
+.caixa {
+    position: absolute;
+    width: 100%;
+    height: 800px;
 }
 
-.navbar-menu{
-    padding: 0.5em;
-    list-style: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
+.caixa1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
     display: flex;
+}
+
+.caixa2 {
+    background-image: linear-gradient(to top, #1a2841 0%, #0b1322 100%, #080a0e 100%);
+    position: absolute;
+    width: 100%;
+    height: 700px;
+}
+
+.aranha {
+    position: absolute;
+    opacity: .2;
+    width: 480px;
+    left: 60px;
+    top: 50px;
+}
+
+.caixa3 {
+    position: absolute;
+    color: white;
+    width: 400px;
+    top: 150px;
+    left: 150px;
+}
+
+.caixa3 h1 {
+    font-family: "spider";
+    margin-left: 30px;
+    font-size: 50px;
     
 }
 
-li {
-    padding: 1.0em;
-    padding-left: 5.0em;
-}
-.li-navbar {
-    text-shadow: 1px 1px 10px rgb(26, 26, 27);
+.caixa3 p {
+    font-family: "luisa";
+    text-align: center;
+    font-size: 14px;
+    margin-left: -100px;
+    margin-top: -20px;
+
 }
 
-.logo-marvel-studio {
-    height: 170px;
-    margin-top: -44px;
-    position: relative;
-    left: 300px
+.but1 {
+    width: 150px;
+    border-radius: 10px;  
+    background-color: red; 
+    padding: 15px 5px;
+    box-shadow: 0px 0px 15px red;
+    margin-left: -30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.but1 li {
+    list-style: none;
+    text-align: center;
+}
+.but1 a {
+    font-family: "luisa";
+    text-decoration: none;
+    color: white;
+}
+.but2 {
+    position: absolute;
+    width: 200px;
+    border-radius: 10px;  
+    background-color: red; 
+    padding: 15px 5px;
+    box-shadow: 0px 0px 15px red;
+    margin-left: 150px;
+    margin-top: 214px;
+    cursor: pointer;
+}
+.but2 li {
+    list-style: none;
+    text-align: center;
+}
+.but2 a {
+    font-family: "luisa";
+    text-decoration: none;
+    color: white;
 }
 
-.navbar span {
-    margin: 1.0em;
+.spider {
+    position: absolute;
+    width: 890px;
+    margin-left: 640px;
+    margin-top: 60px;
+}
+
+.menu {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.menu ul {
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 50px;
+}
+.menu a {
+    font-family: "luisa";
+    text-decoration: none;
+    color: red;
+}
+.menu a:hover {
+    color: brown;
+
+}
+
+.logo {
+    position: absolute;
+    width: 180px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.logo1 {
+    position: absolute;
+    width: 50px;
+    margin-left: 1100px;
+    margin-top: 25px;
+}
+
+.produtora {
+    position: absolute;
+    width: 100px;
+    margin-left: 980px;
+    top: 36px;
+}
+
+/* video */
+
+input {
     display: none;
 }
-.div-menu-lateral {
-    color: #fff;
-    background-color: #000;
-    height: 200vh;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    z-index: 999999;
-    width: 0%;
-    transition: .3s;
-}
-.div-menu-lateral span i{
-    font-size: 50px;
-}
-.div-menu-lateral.abrir-menu {
-    width: 70%;
-}
-.div-menu-lateral.abrir-menu ~ .overlay-menu-lateral {
-    width: 100%;
-}
-.menu-lateral {
-    list-style: none;
-    text-align: right;
-}
-.menu-lateral li {
-    padding: 40px 8%;
-}
-.menu-lateral li:hover{
-    background-color: #ff0000;
-    color: #000;
-}
-.overlay-menu-lateral {
-    width: 0%;
-    height: 100%;
-    position: fixed;
-    z-index: 8888;
-    top: 0;
-    left: 0;
-    background-color: #000000a7;
-    
-}
-/*end navbar*/
 
-/*start menu */
-.menu {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color: #0d1627;
+label video {
+    position: absolute;
+    width: 1420px;
+    opacity: .0;
+    cursor: pointer;
 }
-/* end menu */
-
-@media (max-width: 768px) {
-    .navbar-menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .navbar-menu.active {
-        display: flex;
-    }
-    .navbar span {
-        display: block;
-    }
-    .navbar-menu li {
-        margin: 10px 0;
-    }
-    .logo-marvel-studio {
-        display: none;
-        right: 0px;
-    }
-    #btn-menu {
-        margin-left: 40%;
-        margin-top: 10%;
-        font-size: 1.8em;
-    }
+label video:hover {
+    opacity: 10;
 }
-@media (max-width: 768px) {
-    .navbar-menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-    }
+/* conteudo */
 
-    .navbar-menu.active {
-        display: flex;
-    }
-    .navbar span {
-        display: block;
-    }
-    .navbar-menu li {
-        margin: 10px 0;
-    }
-    .button-navbar {
-        display: none;
-    }
-    .img-navbar-marvel {
-        display: block;
-        margin: 0;
-    }
+.cont {
+    position: absolute;
+    margin-top: 10px;
+    font-family: "luisa";
+    height: 0px;
 }
+
+.cont hr {
+    margin-top: -80px;
+    margin-left: 0px;
+    width: 110px;
+    border: 2px solid rgba(255, 255, 255, 0.658);
+}
+.cont h1 {
+    color: white;
+    margin-left: 60px;
+    display: inline-block;
+    margin-top: 530px;
+    text-align: center;
+}
+.h01 {
+    position: absolute;
+    margin-top: -100px;
+}
+.cont span{
+    font-size: 20px;
+}
+
+.cont p {
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 10px;
+}
+
+.cont div {
+    margin-left: 140px;
+    margin-right: -120px;
+    width: 200px;
+    height: 0px;
+    display: inline-block;
+}
+
+
+
