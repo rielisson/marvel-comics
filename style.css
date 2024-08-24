@@ -8,20 +8,17 @@
 }
 
 body {
-    overflow: hidden;
     padding: 0;
     margin: 0;
-
 }
 .caixa {
-    position: absolute;
     width: 100%;
     height: 800px;
 }
 
 .caixa1 {
     position: absolute;
-    height: 100%;
+    height: 70%;
     width: 100%;
     display: flex;
 }
@@ -143,41 +140,22 @@ body {
 .logo1 {
     position: absolute;
     width: 50px;
-    margin-left: 1100px;
+    margin-left: 1410px;
     margin-top: 25px;
 }
 
 .produtora {
     position: absolute;
     width: 100px;
-    margin-left: 980px;
+    margin-left: 1300px;
     top: 36px;
 }
-
-/* video */
-
-input {
-    display: none;
-}
-
-label video {
-    position: absolute;
-    width: 1420px;
-    opacity: .0;
-    cursor: pointer;
-}
-label video:hover {
-    opacity: 10;
-}
-/* conteudo */
-
 .cont {
     position: absolute;
     margin-top: 10px;
     font-family: "luisa";
     height: 0px;
 }
-
 .cont hr {
     margin-top: -80px;
     margin-left: 0px;
@@ -185,7 +163,7 @@ label video:hover {
     border: 2px solid rgba(255, 255, 255, 0.658);
 }
 .cont h1 {
-    color: white;
+    color: #fff;
     margin-left: 60px;
     display: inline-block;
     margin-top: 530px;
@@ -195,12 +173,11 @@ label video:hover {
     position: absolute;
     margin-top: -100px;
 }
-.cont span{
+.cont span {
     font-size: 20px;
 }
-
 .cont p {
-    color: white;
+    color: #fff;
     text-align: center;
     margin-top: -20px;
     font-size: 10px;
@@ -213,6 +190,89 @@ label video:hover {
     height: 0px;
     display: inline-block;
 }
+.div-trailer {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    margin: 0%;
+}
+.div-trailer video {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+.div-detalhes {
+    width: 30%;
+    height: 857px;
+    z-index: 444444;
+    position: absolute;
+    margin-top: 1.3% ;
+    padding-left: 5%;
+    background-image: linear-gradient(to right, #000007 15%, #0000 100%, #0000 100%);
+    font-family: "Roboto", sans-serif;
+}.titulo-trailer {
+    color: #fff;
+    margin: 25px;
+    margin-top: 90px;
+    font-size: 2.0em;
+}
+.texto-1 {
+    color: #fff;
+    margin: 25px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.texto-2 {
+    color: #fff;
+    margin: 25px;
+    margin-top: 20px;
 
+}
+.texto-2 span {
+    border: 2px solid #fff;
+    padding: 5px;
+}
+.div-radio {
+    background-color: #292b338a;
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 30px;
 
+}
+.input-radio {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+.label-radio {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.0em;
+    padding: 10px;
+}
+.button-detalhes {
+    border-radius: 10px;
+    background-color: #d63d00;
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    margin-top: 30px;
 
+}
+.button-detalhes a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Roboto",sans-serif;
+    padding: 15px;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+.texto-3 {
+    color: #fff;
+    margin: 5px;
+    margin-top: 20px;
+}
