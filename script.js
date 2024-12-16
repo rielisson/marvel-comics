@@ -1,33 +1,34 @@
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
-const carousel = document.querySelector('.carousel');
-const carouselItems = document.querySelectorAll('.carousel-item');
+let currentIndex = 0;
+const items = document.querySelectorAll('.carousel-item');
+const dots = document.querySelectorAll('.dot');
 
-let index = 0;
-
-// Calcula a largura total dos itens
-const itemWidth = carouselItems[0].clientWidth;
-const totalItems = carouselItems.length;
-
-prevButton.addEventListener('click', () => {
-    if (index > 0) {
-        index--;
+function showSlide(index) {
+    if (index >= items.length) {
+        currentIndex = 0;
+    } else if (index < 0) {
+        currentIndex = items.length - 1;
     } else {
-        index = totalItems - 1; 
+        currentIndex = index;
     }
-    updateCarousel();
-});
 
-nextButton.addEventListener('click', () => {
-    if (index < totalItems - 1) {
-        index++;
-    } else {
-        index = 0; 
-    }
-    updateCarousel();
-});
+    const newTransform = -currentIndex * 25; // 25% para cada slide
+    document.querySelector('.carousel').style.transform = `translateX(${newTransform}%)`;
 
-function updateCarousel() {
-    const offset = -index * (itemWidth + 30);
-    carousel.style.transform = `translateX(${offset}px)`;
+    dots.forEach(dot => dot.classList.remove('active'));
+    dots[currentIndex].classList.add('active');
 }
+
+function nextSlide() {
+    showSlide(currentIndex + 1);
+}
+
+function prevSlide() {
+    showSlide(currentIndex - 1);
+}
+
+function currentSlide(index) {
+    showSlide(index - 1);
+}
+
+document.querySelector('.next-btn').addEventListener('click', nextSlide);
+document.querySelector('.prev-btn').addEventListener('click', prevSlide);
