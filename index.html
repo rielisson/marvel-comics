@@ -1,54 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Verse Universe</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>SPIDER MAN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
-    <body>
-        <div class="caixa">
-            <div class="caixa1">
-                <div class="caixa2">
-                    <img class="aranha" src="img/personagens/aranha-logo.png">
-                    <div class="caixa3">
-                        <label for="spider1">
-                            <div class="but2">
-                                <li><a href="#">WATCH THE TEASER</a></li>
-                            </div></label>
-                        <h1>SPIDER-MAN</h1>
-                        <p>"Miles Morales é o mais novo Homem-Aranha de Nova York da Marvel. Após a morte prematura de seu pai, Miles foi apresentado a Peter Parker, que rapidamente se tornou seu amigo e mentor. Quando Miles foi picado por uma aranha geneticamente modificada pela Oscorp, ele desenvolveu poderes únicos e, após meses de insistência, Peter concordou em treiná-lo."</p>
-                        <div class="but1">
-                            <li><a href="#">BUY NOW</a></li>
-                        </div>
-                    </div>
-                    <nav class="menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Wallpapers</a></li>
-                            <li><a href="#">Trajes</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Gameplays</a></li>
-                        </ul>
-                    </nav>
-                    <img class="logo" src="img/navbar/logo-miles.png">
-                    <a href="https://store.playstation.com/pt-br/pages/latest?gclid=EAIaIQobChMIidKX0cPA9gIVggWRCh33aAzZEAAYASAAEgLNP_D_BwE" target="blank"><img class="logo1" src="img/navbar/playstation.png"></a>
-                    <img class="produtora" src="img/navbar/actvision.png">
-                    <img class="spider" src="img/personagens/spider-principal.png">
-                    <div class="cont">
-                        <h1 class="h01">001</h1>
-                    <div>
-                    <h1>01 <span>About</span></h1> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae quibusdam doloremque nulla! Inventore accusantium debitis error iure minima. Ipsam ea quasi laboriosam dignissimos in atque dolores nostrum. Ratione, repellendus.</p></div>
-                    <div>
-                        <h1>02 <span>Support</span></h1> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quo vel id voluptas est eius labore culpa quibusdam reiciendis architecto modi quos non delectus iure beatae, sunt voluptatem possimus dolore.</p></div>
-                    <div>
-                        <h1>03 <span>Team</span></h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos architecto hic nisi nostrum dicta ratione facere quisquam ducimus quo eveniet voluptates voluptate, saepe nihil sequi cumque reprehenderit cum! Eius, officiis!</p></div>
-                    <hr>
-                    </div>
-                    </div>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+                <div class="logo">
+                    <img src="img/personagens/aranha-logo.png" class="aranha-logo">
+                    SPIDER<span>VERSE</span>
+                </div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#characters">Personagens</a>
+                <a href="#movies">Filmes</a>
+                <a href="#games">Jogos</a>
+            </nav>
+            <button class="btn-login">
+                Login
+            </button>
+        </div>
+    </header>
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="tag">
+                    MARVEL MULTIVERSE
+                </span>
+                <h1>
+                    SPIDER-MAN
+                    <br>
+                    ACROSS THE
+                    <span>SPIDER-VERSE</span>
+                </h1>
+                <p>
+                    Explore o universo dos Homens-Aranha,
+                    conheça personagens icônicos,
+                    filmes inesquecíveis e os melhores jogos.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#characters" class="btn">
+                        Explorar Universo
+                    </a>
+                    <a href="#movies" class="btn-outline">
+                        Ver Filmes
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/personagens/spider-principal.png" alt="Spider-Man">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PERSONAGENS -->
+
+    <section class="characters" id="characters">
+        <div class="container">
+            <h2>Personagens</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/personagens/Peter_park-removebg-preview.png" alt="Peter Parker">
+                    <h3>Peter Parker</h3>
+                    <p>
+                        O Homem-Aranha original.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/personagens/download-removebg-preview.png" alt="Miles Morales">
+                    <h3>Miles Morales</h3>
+                    <p>
+                        O herói do multiverso.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/personagens/Across_the_spiderverse_Gwen_Stacy_icons-removebg-preview.png" alt="Gwen Stacy">
+                    <h3>Spider-Gwen</h3>
+                    <p>
+                        A heroína da Terra-65.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/personagens/marvel_icon___miguel_o_hara__spider-man_2099__-removebg-preview.png" alt="Miguel O'Hara">
+                    <h3>Spider-Man 2099</h3>
+                    <p>
+                        O líder da Sociedade Aranha.
+                    </p>
                 </div>
             </div>
         </div>
-    </body>
+    </section>
+    <!-- FILMES -->
+    <section class="movies" id="movies">
+        <div class="container">
+            <h2>Filmes</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="img/movies/Spider Man 2002 Dual Audio (Hindi + English) BluRay 720p and 480p.jpg">
+                    <h3>Spider-Man (2002)</h3>
+                </div>
+                <div class="movie-card">
+                    <img src="img/movies/tasm.webp">
+                    <h3>Amazing Spider man</h3>
+                </div>
+                <div class="movie-card">
+                    <img src="img/movies/brand new day.webp">
+                    <h3>Spider man Brand New Day</h3>
+                </div>
+                <div class="movie-card">
+                    <img src="img/movies/milesmovie.webp">
+                    <h3>Spider man Miles Morales</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- JOGOS -->
+    <section class="games" id="games">
+        <div class="container">
+            <h2>Jogos</h2>
+            <div class="game-grid">
+                <div class="game-card">
+                    <img src="img/games/Marvel's Spider-Man Remastered - Official PS5 Trailer.jpg">
+                    <h3>Spider-Man Remastered</h3>
+                </div>
+                <div class="game-card">
+                    <img src="img/games/milesgames.jpg">
+                    <h3>Miles Morales</h3>
+                </div>
+                <div class="game-card">
+                    <img src="img/games/spider2.jpg">
+                    <h3>Spider-Man 2</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>
+                Entre no Multiverso Aranha
+            </h2>
+            <p>
+                Descubra histórias, heróis e aventuras épicas.
+            </p>
+            <a href="#" class="btn">
+                Explorar Agora
+            </a>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+
+            <h3>SpiderVerse Universe</h3>
+
+            <p>
+                Desenvolvido por Rielisson Breno
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
